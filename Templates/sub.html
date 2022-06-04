@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>submit page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/result.css') }}">
+</head>
+<body>
+    <!-- Result -->
+    <section id="banner">
+    <div class="results">
+        {% if prediction==[1] %}
+            <h1>Prediction: <span class='danger'>Opps! You have DIABETES.</span></h1>
+        {% elif prediction== 0 %}
+            <h1>Prediction: <span class='safe'>Hurrah !!! You DON'T have diabetes.</span></h1>
+        {% endif %}
+    </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Early stage diabetes detection </title>
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"
+        rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<title>Radio button</title>
+
+<body>
+    <section id="banner">
+        <img src="static\css\logo6.png" class="logo">
+        <div class="sugar-studio">
+            <h1> Early stage diabetes detection </h1>
+            <p>we can help you to be at your best</p>
+            <div class="banner-btn">
+                <a href="#"><span></span>About</a>
+                <a href="#"><span></span>Read More</a>
+            </div>
+        </div>
+    </section>
+    <div id="sidenav">
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">INFO</a></li>
+                <li><a href="#">FEATURES</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">FEEDBACK</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menubtn">
+        <img src="static/css/menu.png" id="menu">
+    </div>
+    <script>
+        var menubtn = document.getElementById("menubtn")
+        var sidenav = document.getElementById("sidenav")
+        var menu = document.getElementById("menu")
+        menubtn.onclick = function () {
+            if (sidenav.style.right == "-250px") {
+                sidenav.style.right = "0";
+            }
+            else {
+                sidenav.style.right = "-250px";
+            }
+        }
+    </script>
+    <section id="features">
+        <div class=" title-text">
+            <p>INFO</p>
+            <h1>Why choose us</h1>
+        </div>
+        <div class="feature-box">
+            <div class=" features">
+                <h1>DIABETES</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                    </div>
+                    <div class="feature-text">
+                        <p>Diabetes is a chronic (long-lasting) health condition that affects how your body turns food
+                            into energy. Most of the food you eat is broken down into sugar (also called glucose) and
+                            released into your bloodstream</p>
+                        <p>Type 2 diabetes is a condition that causes too much sugar in your blood. It can cause serious
+                            health problems if not treated.
+                            Symptoms of type 2 diabetes include needing to pee a lot, feeling thirsty all the time and
+                            feeling very tired.
+                            Treatment for type 2 diabetes includes medicines and changes to your diet and activity
+                            levels to help control your blood sugar levels.</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" features-img">
+                <img src="static/css/TYPE2.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="service">
+        <div class="title-text">
+            <p>FEATURES</p>
+            <h1>we provide</h1>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="static/css/pic-1.jpg" width="100%">
+                <div class="over-lay"></div>
+                <div class="service-desc">
+                    <h3>polyuria</h3>
+                    <hr>
+                    <p>If you have a condition called polyuria, it's because your body makes more pee than normal.
+                        Adults usually make about 3 liters of urine per day. But with polyuria, you could make up to 15
+                        liters per day.</p>
+                </div>
+            </div>
+            <div class="column">
+                <img src="static/css/pic-2.jpg" width="100%">
+                <div class="over-lay"></div>
+                <div class="service-desc">
+                    <h3>polydipsia</h3>
+                    <hr>
+                    <p>Drinking plenty of water will usually take care of your thirst. But sometimes, no amount of water
+                        seems like enough. You'll drink and drink and drink -- and drink -- and still be thirsty. That's
+                        polydipsia. People who have polydipsia will also spend a lot of time in the bathroom.</p>
+                </div>
+            </div>
+            <div class="column">
+                <img src="static/css/pic-4.jpg" width="100%">
+                <div class="over-lay"></div>
+                <div class="service-desc">
+                    <h3>Sudden Weight loss</h3>
+                    <hr>
+                    <p>people with diabetes, insufficient insulin prevents the body from getting glucose from the blood
+                        into the body's cells to use as energy. When this occurs, the body starts burning fat and muscle
+                        for energy, causing a reduction in overall body weight.</p>
+                </div>
+            </div>
+            <div class="column">
+                <img src="static/css/pic-5.jpg" width="100%">
+                <div class="over-lay"></div>
+                <div class="service-desc">
+                    <h3>Alopecia</h3>
+                    <hr>
+                    <p>People with diabetes are more likely to have a condition called alopecia areata. With alopecia,
+                        the immune system attacks the hair follicles, leading to patches of hair loss on the head and on
+                        other parts of the body. Diabetes itself can lead to hair loss.</p>
+                </div>
+            </div>
+            <div class="column">
+                <img src="static/css/pic-7.jpg" width="100%">
+                <div class="over-lay"></div>
+                <div class="service-desc">
+                    <h3>Irritability</h3>
+                    <hr>
+                    <p>Mood swings and diabetes. Feeling a range of highs and lows is not uncommon if you have diabetes.
+                        Your blood sugar impacts how you feel and can contribute to mood swings. Poor management of
+                        blood glucose can lead to negative moods and a lower quality of life .</p>
+                </div>
+            </div>
+            <div class="column">
+                <img src="static/css/pic-8.jpg" width="100%">
+                <div class="over-lay"></div>
+                <div class="service-desc">
+                    <h3>Delay healing</h3>
+                    <hr>
+                    <p>Uncontrolled diabetes may also affect circulation, causing blood to move more slowly, which makes
+                        it more difficult for the body to deliver nutrients to wounds. As a result, the injuries heal
+                        slowly or may not heal at all. Diabetes can also cause diabetic neuropathy, which can affect
+                        wound healing</p>
+                </div>
+            </div>
+            <div class="column">
+                <img src="static/css/pic-9.png" width="100%">
+                <div class="over-lay"></div>
+                <div class="service-desc">
+                    <h3>partial paresis</h3>
+                    <hr>
+                    <p>these are more common in people with diabetes and involve damage to a single nerve. ⁹ It may
+                        affect the shoulder, hand, leg, feet or face and may be caused by pressure on a nerve. This can
+                        cause weakness, pain, numbness or even paralysis.</p>
+                </div>
+            </div>
+            <div class="column">
+                <img src="static/css/pic-10.jpg" width="100%">
+                <div class="over-lay"></div>
+                <div class="service-desc">
+                    <h3>Itching</h3>
+                    <hr>
+                    <p>If you have diabetes, you're more likely to have dry skin. High blood sugar (glucose) can cause
+                        this. If you have a skin infection or poor circulation, these could also contribute to dry,
+                        itchy skin.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="execution">
+        <form action="/predict" method="post">
+            <h1>Enter your Age</h1>
+            <select name="age" id="age">
+                <option value="0"> 0 </option>
+                <option value="1"> 1 </option>
+                <option value="2"> 2 </option>
+                <option value="3"> 3 </option>
+                <option value="4"> 4 </option>
+                <option value="5"> 5 </option>
+                <option value="6"> 6 </option>
+                <option value="7"> 7 </option>
+                <option value="8"> 8 </option>
+                <option value="9"> 9 </option>
+                <option value="10"> 10 </option>
+                <option value="11"> 11 </option>
+                <option value="12"> 12 </option>
+                <option value="13"> 13 </option>
+                <option value="14"> 14 </option>
+                <option value="15"> 15 </option>
+                <option value="16"> 16 </option>
+                <option value="17"> 17 </option>
+                <option value="18"> 18 </option>
+                <option value="19"> 19 </option>
+                <option value="20"> 20 </option>
+                <option value="21"> 21 </option>
+                <option value="22"> 22 </option>
+                <option value="23"> 23 </option>
+                <option value="24"> 24 </option>
+                <option value="25"> 25 </option>
+                <option value="26"> 26 </option>
+                <option value="27"> 27 </option>
+                <option value="28"> 28 </option>
+                <option value="29"> 29 </option>
+                <option value="30"> 30 </option>
+                <option value="31"> 31 </option>
+                <option value="32"> 32 </option>
+                <option value="33"> 33 </option>
+                <option value="34"> 34 </option>
+                <option value="35"> 35 </option>
+                <option value="36"> 36 </option>
+                <option value="37"> 37 </option>
+                <option value="38"> 38 </option>
+                <option value="39"> 39 </option>
+                <option value="40"> 40 </option>
+                <option value="41"> 41 </option>
+                <option value="42"> 42 </option>
+                <option value="43"> 43 </option>
+                <option value="44"> 44 </option>
+                <option value="45"> 45 </option>
+                <option value="46"> 46 </option>
+                <option value="47"> 47 </option>
+                <option value="48"> 48 </option>
+                <option value="49"> 49 </option>
+                <option value="50"> 50 </option>
+                <option value="51"> 51 </option>
+                <option value="52"> 52 </option>
+                <option value="53"> 53 </option>
+                <option value="54"> 54 </option>
+                <option value="55"> 55 </option>
+                <option value="56"> 56 </option>
+                <option value="57"> 57 </option>
+                <option value="58"> 58 </option>
+                <option value="59"> 59 </option>
+                <option value="60"> 60 </option>
+                <option value="61"> 61 </option>
+                <option value="62"> 62 </option>
+                <option value="63"> 63 </option>
+                <option value="64"> 64 </option>
+                <option value="65"> 65 </option>
+                <option value="66"> 66 </option>
+                <option value="67"> 67 </option>
+                <option value="68"> 68 </option>
+                <option value="69"> 69 </option>
+                <option value="70"> 70 </option>
+                <option value="71"> 71 </option>
+                <option value="72"> 72 </option>
+                <option value="73"> 73 </option>
+                <option value="74"> 74 </option>
+                <option value="75"> 75 </option>
+                <option value="76"> 76 </option>
+                <option value="77"> 77 </option>
+                <option value="78"> 78 </option>
+                <option value="79"> 79 </option>
+                <option value="80"> 80 </option>
+                <option value="81"> 81 </option>
+                <option value="82"> 82 </option>
+                <option value="83"> 83 </option>
+                <option value="84"> 84 </option>
+                <option value="85"> 85 </option>
+                <option value="86"> 86 </option>
+                <option value="87"> 87 </option>
+                <option value="88"> 88 </option>
+                <option value="89"> 89 </option>
+                <option value="90"> 90 </option>
+                <option value="91"> 91 </option>
+                <option value="92"> 92 </option>
+                <option value="93"> 93 </option>
+                <option value="94"> 94 </option>
+                <option value="95"> 95 </option>
+                <option value="96"> 96 </option>
+                <option value="97"> 97 </option>
+                <option value="98"> 98 </option>
+                <option value="99"> 99</option>
+                <option value="100"> 100 </option>
+            </select>
+            <div class="name">
+                <h1>Gender </h1><br>
+                <input type="radio" name="gender" value="1">
+                <label class="label">
+                    <span>Male</span>
+                </label>
+                <input type="radio" name="gender" value="0">
+                <label class="label">
+                    <span>Female</span>
+                </label>
+            </div>
+            <div class="container">
+                <h1>Polyuria</h1>
+                <input type="radio" name="polyuria" value="1">
+                <label class="label">
+                    <span>Yes</span>
+                </label>
+                <input type="radio" name="polyuria" value="0">
+                <label class="label">
+                    <span>No</span>
+                </label>
+            </div>
+            <div class="container ">
+                <h1>Poludipsia</h1>
+                <input type="radio" name="polydipsia" value="1">
+                <label class="label">
+                    <span>Yes</span>
+                </label>
+                <input type="radio" name="polydipsia" value="0">
+                <label class="label">
+                    <span>No</span>
+                </label>
+            </div>
+            <div class="container">
+                <h1>Sudden weight loss</h1>
+                <input type="radio" name="sudden_weight_loss" value="1">
+                <label class="label">
+                    <span>Yes</span>
+                </label>
+                <input type="radio" name="sudden_weight_loss" value="0">
+                <label class="label">
+                    <span>No</span>
+                </label>
+            </div>
+            <div class="container">
+                <h1>Partial paresis</h1>
+                <input type="radio" name="partial_paresis" value="1">
+                <label class="label">
+                    <span>Yes</span>
+                </label>
+                <input type="radio" name="partial_paresis" value="0">
+                <label class="label">
+                    <span>No</span>
+                </label>
+            </div>
+            <div class="container">
+                <h1>Irritability</h1>
+                <input type="radio" name="irritability" value="1">
+                <label for="opt1" class="label">
+                    <span>Yes</span>
+                </label>
+                <input type="radio" name="irritability" value="0">
+                <label for="opt1" class="label">
+                    <span>No</span>
+                </label>
+            </div>
+            <div class="container">
+                <h1>Delayed healing</h1>
+                <input type="radio" name="delayed_healing" value="1">
+                <label class="label">
+                    <span>Yes</span>
+                </label>
+                <input type="radio" name="delayed_healing" value="0">
+                <label class="label">
+                    <span>No</span>
+                </label>
+            </div>
+            <div class="container">
+                <h1>Alopecia</h1>
+                <input type="radio" name="alopecia" value="1">
+                <label class="label">
+                    <span>Yes</span>
+                </label>
+                <input type="radio" name="alopecia" value="0">
+                <label class="label">
+                    <span>No</span>
+                </label>
+            </div>
+            <div class="container">
+                <h1>Itching</h1>
+                <input type="radio" name="itching" value="1">
+                <label class="label">
+                    <span>Yes</span>
+                </label>
+                <input type="radio" name="itching" value="0">
+                <label class="label">
+                    <span>No</span>
+                </label>
+            </div>
+            <!-- <div class="container">
+                <button type="submit" onclick="predictSugar()" class="btn btn-primary btn-block btn-large">Predict</button>
+            </div> -->
+             <div class="container">
+                <button type="submit" class="btn btn-primary btn-block btn-large">PREDICT</button>
+            </div>
+        </form>
+    </section>
+    <section id="About ">
+        <div class="title-text">
+            <p>ABOUT</p>
+            <h1>Project Team</h1>
+        </div> 
+        <div class="guide-row">
+            <div class="guide-column">
+                <div class="user">
+                    <img src="static/css/img-5.jpg">
+                    <div class = "user-info">
+                        <h4>CHETHANA G S <i class='fab fa-linkedin-in'>
+                            <img src="static/css/lin.png">
+                        </i>
+                        </h4>
+                        <small>@Chethana G S</small>
+                    </div>
+                </div>
+                <p>
+                    
+                </p>
+            </div> 
+        </div>
+        <div class="About-row">
+            <div class="About-column">
+                <div class="user">
+                    <img src="static/css/img-1.jpg">
+                    <div class = "user-info">
+                        <h4>J Surendra <i class='fab fa-linkedin-in'>
+                            <img src="static/css/lin.png">
+                        </i>
+                        </h4>
+                        <small>@Surendra Jakkula</small>
+                    </div>
+                </div>
+                <p>
+                    Surendra is the main developer of the project worked on both frontend and backend and also Api integration.
+                </p>
+            </div>     
+            <div class="About-column">
+                <div class="user">
+                    <img src="static/css/img-2.jpeg">
+                    <div class = "user-info">
+                        <h4>G Sumanth <i class='fab fa-linkedin-in'>
+                            <img src="static/css/lin.png">
+                        </i>
+                        </h4>
+                        <small>@G Sumanth</small>
+                    </div>
+                </div>
+                <p>
+                    Sumanth is our frontend developer he developed website coordinating with surendra and made all things possible in time.
+                </p>
+            </div> 
+            <div class="About-column">
+                <div class="user">
+                    <img src="static/css/img-3.jpeg">
+                    <div class = "user-info">
+                        <h4>Charan S <i class='fab fa-linkedin-in'>
+                            <img src="static/css/lin.png">
+                        </i>
+                        </h4>
+                        <small>@Charan s</small>
+                    </div>
+                </div>
+                <p>
+                    Charan is our another team member who worked with sumanth to design website with prefect style and also he worked with documentation work.
+                </p>
+            </div>
+            <div class="About-column">
+                <div class="user">
+                    <img src="static/css/img-4.jpeg">
+                    <div class = "user-info">
+                        <h4>M Sai Meghana <i class='fab fa-linkedin-in'>
+                            <img src="static/css/lin.png">
+                        </i>
+                        </h4>
+                        <small>@Sai Meghana</small>
+                    </div>
+                </div>
+                <p>
+                    Meghana is our one more team member.she worked with documentation and poster preparation of our project and made all the documentation work possible in time like paper presentation and project reports.
+                </p>
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+    <!-----footer----->
+
+    <section id="footer">
+        <img src="static/css/footer-img.png" class="footer-img">
+        <div class="title-text">
+            <p>MORE INFO</p>
+            <h1>Contact Us</h1>
+        </div>
+    <div class="footer-row">
+    <div class="footer-left">
+        <h1>Contact Timings</h1>
+        <p>Monday to Saturday - 9am to 9pm</p>
+    </div>
+    <div class="footer-right">
+        <h1>Get In Touch</h1>
+        <p>charansn73@gmail.com</p>
+        <p>+91 7349072214</p>
+        <p>gurramsumanth9999@gmail.com</p>
+        <p>+91 6302656267</p>
+        <p>surendrajakkula14@gmail.com</p>
+        <p>+91 9440607775</p>
+        <p>mehaganamuthyala@gmail.com</p>
+        <p>+91 6303591020</p>
+
+    </div>
+    </div>
+    <div class="social-links">
+        <img src="static/css/fb.png">
+        <img src="static/css/ig.png">
+        <img src="static/css/tw.png">
+        <p>Copyright @TEAMJACK</p>
+    </div>
+    </section>
+    <script>
+        function predictSugar(){
+            var arr_Predict=[];
+            var age=document.getElementById('age').value;
+            arr_Predict.push(age);
+            var gender=document.querySelector('input[name="gender"]:checked').value;
+            arr_Predict.push(gender);
+            var polyuria=document.querySelector('input[name="polyuria"]:checked').value;
+            arr_Predict.push(polyuria);
+            var polydipsia=document.querySelector('input[name="polydipsia"]:checked').value;
+            arr_Predict.push(polydipsia);
+            var sudden_weight_loss=document.querySelector('input[name="sudden_weight_loss"]:checked').value;
+            arr_Predict.push(sudden_weight_loss);
+            var partial_paresis=document.querySelector('input[name="partial_paresis"]:checked').value;
+            arr_Predict.push(partial_paresis);
+            var irritability=document.querySelector('input[name="irritability"]:checked').value;
+            arr_Predict.push(irritability);
+            var delayed_healing=document.querySelector('input[name="delayed_healing"]:checked').value;
+            arr_Predict.push(delayed_healing);
+            var alopecia=document.querySelector('input[name="alopecia"]:checked').value;
+            arr_Predict.push(alopecia);
+            var itching=document.querySelector('input[name="itching"]:checked').value;
+            arr_Predict.push(itching);           
+        }
+    </script>
+</body>
+
+</html>

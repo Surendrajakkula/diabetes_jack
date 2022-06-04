@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#banner{
+    background-image:linear-gradient(rgba(0,0,0,0.5),#009688) ,url(../css/background1.jpg);
+    background-size: cover;
+    background-position:left;
+    height: 100vh;
+    font-style: italic;
+}
+.results{
+    text-align: center;
+    color: #fff;
+    padding-top: 300px;
+    font-style: italic;
+}
+.results h1{
+    font-size: 60px;
+    font-style: italic;
+}
